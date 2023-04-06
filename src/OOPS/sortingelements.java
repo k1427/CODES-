@@ -48,3 +48,15 @@ public class sortingelements {
         }
     }
 }
+
+
+//SAMPLE OUTPUT:
+//        Enter the number of elements you want to store: 5
+//        10
+//        23
+//        2
+//        34
+//        45
+//        10 23 2 34 45
+//        45 34 23 10 2
+//        2 10 23 34 45
