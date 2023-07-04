@@ -1,4 +1,4 @@
-package DSA;
+package OOPS;
 class Helper {
     static int Multiply(int a, int b)
     {
