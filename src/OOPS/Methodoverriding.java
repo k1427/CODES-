@@ -1,4 +1,4 @@
-package DSA;
+package OOPS;
 
 public class Methodoverriding {
     public static void main(String[] args) {
@@ -29,18 +29,18 @@ class Child extends Parent {
 
 
 
-//class Child2 extends Child {
-//    @Override
-//    void show()
-//    {
-//        System.out.println("Child's show()");
-//    }
-//}
-//class Child3 extends Parent {
-//    @Override
-//    void show()
-//    {
-//        System.out.println("Child's show()");
-//    }
-//}
-//
+class Child2 extends Child {
+    @Override
+    void show()
+    {
+        System.out.println("Child's show()");
+    }
+}
+class Child3 extends Parent {
+    @Override
+    void show()
+    {
+        System.out.println("Child's show()");
+    }
+}
+
